@@ -3888,6 +3888,9 @@ input, select, textarea {
 		}
 
 /* Intro */
+.inner > img {
+	width: 100%;
+}
 
 	#intro {
 		background-attachment: fixed;
@@ -3940,15 +3943,14 @@ input, select, textarea {
 				width: 100%;
 			}
 		}
-		@media screen and (max-width: 374px) {
-			#movGif{
+		@media screen and (max-width: 412px) {
+			.inner > img {
 				width: 100%;
 			}
 		}
 
-	.inner > img {
-		width: 100%;
-	}
+	
+
 	/* @media screen and (max-width: 412px) {
 		.image > a {
 			height: 100%;
