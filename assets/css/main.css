@@ -3030,6 +3030,10 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				width: 100%;
+				
+			}
+			a.image::before {
+				width: 100%;
 			}
 
 			.spotlights > section > .image:before {
@@ -3891,6 +3895,9 @@ input, select, textarea {
 .inner > img {
 	width: 100%;
 }
+/* .one > img {
+	border: 25px solid white;
+} */
 
 	#intro {
 		background-attachment: fixed;
