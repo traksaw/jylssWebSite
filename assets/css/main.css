@@ -3139,6 +3139,9 @@ input, select, textarea {
 				height: 50vh;
 				min-height: 15em;
 			}
+			.image > a {
+				height: fit-content;
+			}
 
 			.spotlights > section > .content {
 				padding: 3em 2em 1em 2em ;
@@ -3945,4 +3948,10 @@ input, select, textarea {
 
 	.inner > img {
 		width: 100%;
+	}
+	/* @media screen and (max-width: 412px) {
+		.image > a {
+			height: 100%;
+		} */
+		
 	}
