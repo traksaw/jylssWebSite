@@ -2787,6 +2787,7 @@ input, select, textarea {
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
 						width: 100%;
+						margin-bottom: 5%;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -3290,7 +3291,6 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			min-height: 100vh;
 		}
 
 			body.is-ie .wrapper.fullscreen {
@@ -3942,3 +3942,7 @@ input, select, textarea {
 				width: 100%;
 			}
 		}
+
+	.inner > img {
+		width: 100%;
+	}
